@@ -25,6 +25,28 @@
                 "c3f07a3a4cb3a804ffa4cd143335efd66836957ab33631ccec65b292f02688b8",
                 "b75390b1101ef01a1253fe5f9aae69554cef367143d73321ef42727e14c62c1a"
             ]
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-aarch64-pc-windows-msvc.exe#/mq.exe",
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-lsp-aarch64-pc-windows-msvc.exe#/mq-lsp.exe",
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-fmt-aarch64-pc-windows-msvc.exe#/mq-fmt.exe",
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-check-aarch64-pc-windows-msvc.exe#/mq-check.exe",
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-lint-aarch64-pc-windows-msvc.exe#/mq-lint.exe",
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-test-aarch64-pc-windows-msvc.exe#/mq-test.exe",
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-crawl-aarch64-pc-windows-msvc.exe#/mq-crawl.exe",
+                "https://github.com/harehare/mq/releases/download/v0.9.3/mq-dbg-aarch64-pc-windows-msvc.exe#/mq-dbg.exe"
+            ],
+            "hash": [
+                "f17dabe24231fd3661c2263155be757313b98a9b00096c106e4569dd17c4b8c9",
+                "6f052cd9fb860b8013dd3ba46c726b076748c6920a33908424ff7dfc31e5cdba",
+                "d12fa9af419e7549ffb06121655eb8fa68f03e1afbc2fb0dcf8693358419d929",
+                "d50d7f2ba7eaeee44b93f072caeebb57fa0051d15940ee1994b160dafde86519",
+                "14dbf511d262c4780493e77806a1c49395ff161b956d2236aa4a09eb2e569f77",
+                "fc4c656cbe8dbe5f67c34a6da87354db75dec20a5a6070369e0bf2e7ce95191c",
+                "7bfa1210484f25e0a52ebbda9afd0471a0d6bd665575aada4724eeb2059d3c96",
+                "2266b36e33cd3ca0a913c9d4738c3efce002bcf2090e488afb6bfa7404a1aaa4"
+            ]
         }
     },
     "bin": [
@@ -50,6 +72,18 @@
                     "https://github.com/harehare/mq/releases/download/v$version/mq-test-x86_64-pc-windows-msvc.exe#/mq-test.exe",
                     "https://github.com/harehare/mq/releases/download/v$version/mq-crawl-x86_64-pc-windows-msvc.exe#/mq-crawl.exe",
                     "https://github.com/harehare/mq/releases/download/v$version/mq-dbg-x86_64-pc-windows-msvc.exe#/mq-dbg.exe"
+                ]
+            },
+            "arm64": {
+                "url": [
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-aarch64-pc-windows-msvc.exe#/mq.exe",
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-lsp-aarch64-pc-windows-msvc.exe#/mq-lsp.exe",
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-fmt-aarch64-pc-windows-msvc.exe#/mq-fmt.exe",
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-check-aarch64-pc-windows-msvc.exe#/mq-check.exe",
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-lint-aarch64-pc-windows-msvc.exe#/mq-lint.exe",
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-test-aarch64-pc-windows-msvc.exe#/mq-test.exe",
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-crawl-aarch64-pc-windows-msvc.exe#/mq-crawl.exe",
+                    "https://github.com/harehare/mq/releases/download/v$version/mq-dbg-aarch64-pc-windows-msvc.exe#/mq-dbg.exe"
                 ]
             }
         }
